@@ -1,0 +1,86 @@
+id,name,setting,solution,section,level,level2,order,mission,problemset
+51,three-steps-forward,{'fields': 'b|b|b|b|b;k|k|k|k|k;k|k|k|k|k;k|k|kS|k|k'},fff,1.1.1,1,1,1,commands,1011
+49,turning-right,{'fields': 'b|bM|b|b|bM;kA|k|kM|k|kA;k|kM|kA|k|k;kA|k|kS|k|kM'},rff,1.2.1,1,2,1,commands,1012
+44,turning-left,{'fields': 'bM|b|b|bM|b;kA|k|kM|k|kA;k|k|kA|kM|k;kM|k|kS|k|kA'},lff,1.2.2,1,2,2,commands,1012
+26,turning-right-and-left,{'fields': 'b|bM|b|bM|bA;k|kA|kA|k|kM;kA|kM|k|kM|kA;kM|k|kS|kM|k'},frl,1.2.3,1,2,3,commands,1012
+2,turning-left-and-right,{'fields': 'b|bM|b|bM|b;kM|kA|k|kA|k;kA|k|kA|kM|kA;k|kM|kS|k|kM'},lrf,1.2.4,1,2,4,commands,1012
+31,diamond-on-right,{'fields': 'b|bM|b|b|b;k|k|k|kA|k;kA|k|k|k|kD;k|kM|k|k|k;k|k|kS|k|kM'},rrff,1.3.1,1,3,1,commands,1013
+14,beware-of-asteroid,{'fields': 'bM|b|bD|b|b;k|kM|kA|k|kA;kA|k|kD|kM|k;k|k|kS|k|kM'},frl,1.3.2,1,3,2,commands,1013
+67,plus,{'fields': 'b|b|bD|b|b;k|k|kA|k|k;k|kA|kA|kA|k;k|k|kA|k|k;k|k|kS|k|k'},rrll,1.3.3,1,3,3,commands,1013
+86,diamond-path,{'fields': 'b|b|b|bD|b;k|k|kD|k|k;k|kD|k|k|k;k|k|kD|k|k;k|k|k|kD|k;k|k|kD|k|k;k|k|kS|k|k'},frllrr,1.3.4,1,3,4,commands,1013
+66,surrounded-diamond,{'fields': 'b|bA|bM|bM|b;kA|k|k|k|kA;k|k|kA|kM|k;k|kM|kD|k|k;k|kM|kA|k|kM;kA|k|kM|kA|k;kM|k|kA|k|k;k|k|kS|k|kM'},rrlllfl,1.3.5,1,3,5,commands,1013
+10,shot,{'fields': 'b|bA|b|bA|b;k|kA|kM|kA|k;k|kA|k|kA|k;k|kA|kS|kA|k'},fsf,2.1.1,2,1,1,commands-2,1021
+8,shooting,{'fields': 'bA|bA|bA|b|bA;kA|k|kA|kM|kA;kA|k|kA|kM|kA;kA|k|kA|k|kA;kA|k|k|k|kA;kA|k|kS|k|kA'},rfssf,2.1.2,2,1,2,commands-2,1021
+12,wormhole-demo,{'fields': 'b|b|b|b|b;k|k|k|k|k;kW|k|kA|kA|kA;kA|kA|kA|k|kW;k|k|k|k|k;k|k|kS|k|k'},rrff,2.2.1,2,2,1,commands-2,1022
+6,tunnel,{'fields': 'b|b|b|b|b;kA|kA|kM|kA|kA;kA|kA|kM|kA|kA;kA|kA|kM|kA|kA;k|kD|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|kD|k;k|k|k|k|k;k|k|kS|k|k'},srlslrsff,2.3.1,2,3,1,commands-2,1023
+23,dont-forget-shot,{'fields': 'b|b|b|b|b;k|kM|kA|kA|kA;k|k|k|k|k;k|k|k|kD|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|kS|k|k'},lsrrllf,2.3.2,2,3,2,commands-2,1023
+19,2diamonds-2meteorids,{'fields': 'b|b|b|b|b;kW|kA|kA|k|k;k|kD|kM|kA|kA;k|kD|kM|kA|kA;k|k|k|k|k;k|k|kS|k|kW'},slflllsrf,2.3.3,2,3,3,commands-2,1023
+79,last-shot,"{'energy': 1, 'fields': 'b|b|b|b|b;kM|kA|kM|kM|k;kM|k|kA|k|kM;k|kA|kM|kA|kM;k|k|kA|k|k;k|k|k|k|k;k|k|kS|k|k'}",rrslrf,2.3.4,2,3,4,commands-2,1023
+11,ladder,"{'energy': 4, 'fields': 'b|bA|bM|bA|b;k|kA|k|kA|k;k|kA|kM|kA|k;k|kA|k|kA|k;k|kA|kM|kA|k;k|kA|k|kA|k;k|kA|kM|kA|k;k|kA|k|kA|k;k|kA|kS|kA|k', 'length': 3}",R4{fs},3.1.1,3,1,1,repeat,1031
+1,diamonds-in-meteoroid-cloud,"{'fields': 'b|b|b|b|b;k|k|k|kM|kD;k|k|k|kM|kM;k|k|kM|kD|kM;k|k|kM|kM|k;k|kM|kD|kM|k;k|kM|kM|k|k;kM|kD|kM|k|k;kM|kM|k|k|k;kS|k|k|k|k', 'length': 4}",R4{sr}f,3.1.2,3,1,2,repeat,1031
+71,big-left-turn,{'fields': 'bA|bA|bA|b|bA;kA|kA|k|k|kA;kA|k|k|kA|kA;k|k|kA|kA|kA;k|kA|kA|kA|kA;k|kA|kA|kA|kA;k|k|kA|kA|kA;kA|k|k|kA|kA;kA|kA|k|k|kA;kA|kA|kA|kS|kA'},R3{l}R3{f}R3{r},3.2.1,3,2,1,repeat,1032
+70,big-right-turn,"{'fields': 'b|bM|bA|bA|bA;kM|k|kM|kA|kA;kA|kM|k|kM|kA;kA|kA|kM|k|kM;kA|kA|kA|kM|k;kA|kA|kA|kM|k;kA|kA|kM|k|kM;kA|kM|k|kM|kA;kA|kS|kM|kA|kA', 'length': 5}",R3{r}fR4{l},3.2.2,3,2,2,repeat,1032
+76,blocked-wormhole,"{'energy': 3, 'fields': 'bA|bA|bA|b|bA;kA|kW|kA|k|kA;kA|kM|kA|k|kA;kA|kM|kA|k|kA;kA|kM|kA|kW|kA;kA|k|kA|kA|kA;kA|k|kA|kA|kA;kA|k|kA|kA|kA;kA|k|kA|kA|kA;kA|kS|kA|kA|kA', 'length': 4}",R3{s}R9{f},3.2.3,3,2,3,repeat,1032
+84,triangle,"{'fields': 'bX|b|b|b|b;k|kD|k|k|k;k|kD|kD|k|k;k|kD|k|kD|k;k|kD|k|k|kD;k|kD|k|kD|k;k|kD|kD|k|k;k|kD|k|k|k;kS|kX|k|k|k', 'length': 6}",R4{r}R4{l}R8{f},3.2.4,3,2,4,repeat,1032
+13,n,"{'fields': 'b|b|b|b|b;kWD|k|k|k|kD;kD|kXD|k|k|kD;kD|k|kD|k|kD;kD|k|k|kD|kXD;kS|k|k|k|kWD', 'length': 6}",R4{f}R3{l}R4{f},3.2.5,3,2,5,repeat,1032
+21,steal-the-nose,"{'fields': 'b|b|b|b|b;k|kW|k|kW|k;k|k|k|k|k;k|k|yD|k|k;rA|k|k|k|rA;k|rA|rA|rA|k;kS|k|k|k|k', 'length': 4}",fR4{r}f,3.3.1,3,3,1,repeat,1033
+46,find-the-path,"{'fields': 'b|bA|b|bA|b;kM|kM|kA|k|kM;kM|k|kA|k|kM;k|kA|k|kA|k;kA|kM|kM|kA|kA;k|k|kM|k|k;k|kA|k|kA|k;kM|kM|kM|k|kM;kA|k|kA|kM|kA;k|k|kS|k|k', 'length': 4}",R3{lsr},3.3.2,3,3,2,repeat,1033
+57,stairs,"{'fields': 'b|b|b|b|b;k|k|k|k|kD;k|k|k|k|kD;k|k|k|kD|k;k|k|k|kD|k;k|k|kD|k|k;k|k|kD|k|k;k|kD|k|k|k;k|kD|k|k|k;kD|k|k|k|k;kD|k|k|k|k;kS|k|k|k|k', 'length': 6}",fR4{fr}R2{f},3.3.3,3,3,3,repeat,1033
+18,clean-your-path,"{'fields': 'b|b|b|b|b|b|b;kW|kM|kA|k|k|k|k;k|k|kM|kA|k|k|k;k|k|k|kM|kA|k|k;k|k|k|k|kM|kA|k;k|k|k|k|k|kM|kA;k|k|k|k|k|k|kD;k|k|k|k|k|k|kW;k|k|k|k|k|k|k;k|k|k|k|k|k|k;k|k|k|k|k|k|k;k|k|k|k|k|kS|k', 'length': 7}",R5{sl}fR6{l},3.3.4,3,3,4,repeat,1033
+3,zig-zag,"{'fields': 'b|b|b|b|b;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|k|kS|k|k', 'length': 3}",W!b{rl},4.1.1,4,1,1,while,1041
+53,direct-flight-ahead,"{'fields': 'b|b|b|bD|b;k|kW|k|k|k;k|k|k|kD|k;k|kD|k|k|k;k|k|k|kD|k;k|kD|k|k|k;k|k|k|kD|k;k|kD|k|k|k;k|k|k|kD|k;k|kS|k|kW|k', 'length': 2}",W!b{f},4.1.2,4,1,2,while,1041
+17,yellow-is-not-red,"{'fields': 'b|b|b|b|b;k|k|k|kD|k;k|k|k|y|k;k|k|kD|k|k;k|kD|k|k|k;kD|k|k|k|k;k|r|k|k|k;k|k|r|k|k;k|k|k|r|k;k|k|k|k|rS', 'length': 6}",Wr{l}W!y{r}ff,4.2.1,4,2,1,while,1042
+41,yellow-hint,"{'fields': 'b|b|b|b|b;k|k|k|kD|k;k|k|k|kD|k;k|k|k|kD|k;k|k|k|kD|k;k|k|yD|k|k;k|yD|k|k|k;yS|k|k|k|k', 'length': 4}",Wy{r}W!b{f},4.2.2,4,2,2,while,1042
+73,stop-on-red,"{'energy': 1, 'fields': 'b|b|b|b|b;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;kA|kA|kM|kA|kA;k|k|rD|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|kS|k|k', 'length': 5}",W!r{f}sW!b{f},4.2.3,4,2,3,while,1042
+38,direction-change,"{'fields': 'b|b|b|b|b;k|k|k|k|k;kA|kA|k|kA|kA;k|k|k|k|k;kA|kA|kA|kA|y;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|kS', 'length': 4}",W!y{f}W!b{l},4.2.4,4,2,4,while,1042
+69,diamond-in-house,{'fields': 'b|b|bA|b|b;k|kA|y|kA|k;kA|y|y|y|kA;y|yA|yA|yA|y;k|kA|kX|kA|k;kW|kA|kD|kA|kX;k|kA|kW|kA|k;k|kA|kA|kA|k;g|g|g|g|g;g|g|g|g|g;g|g|g|gS|g'},Wg{l}W!y{f}W!b{l},4.3.1,4,3,1,while,1043
+56,diamond-cross,"{'fields': 'b|b|b|b|b;kW|k|k|k|k;k|kD|k|kD|k;k|k|kD|k|k;k|kD|k|kD|k;kW|k|k|k|kS', 'length': 5}",R4{l}R4{r}f,5.1.1,5,1,1,loops,1051
+68,stripes,"{'fields': 'b|bW|b|bX|b|b;k|kD|k|kD|k|kD;k|kD|k|kD|k|kD;k|kD|k|kD|k|kD;k|kD|k|kD|k|kD;k|kD|k|kD|k|kD;kS|k|kW|k|kX|k', 'length': 4}",R3{rR5{f}},5.1.2,5,1,2,loops,1051
+37,big-slalom,"{'fields': 'bD|b|b|b;k|kD|k|k;k|k|kD|k;k|k|k|kD;k|k|kD|k;k|kD|k|k;kD|k|k|k;k|kD|k|k;k|k|kD|k;k|k|k|kD;k|k|kD|k;k|kD|k|k;kS|k|k|k', 'length': 5}",R2{R3{r}R3{l}},5.1.3,5,1,3,loops,1051
+50,double-bend,"{'fields': 'b|b|b|b|bD;k|k|k|kD|kW;k|k|kD|kD|k;k|kD|kD|k|k;kD|kD|k|k|k;kD|kD|k|k|k;k|kD|kD|k|k;k|k|kD|kD|k;k|k|k|kD|kW;k|k|k|k|kS', 'length': 5}",R2{R4{l}R4{r}},5.1.4,5,1,4,loops,1051
+58,collect-diamonds,"{'fields': 'b|b|b|b|b;k|k|k|k|kD;k|k|k|k|kD;k|k|k|k|kD;k|k|k|k|k;kA|kA|k|kA|kA;k|k|k|k|k;k|k|k|k|k;kD|k|k|k|k;kD|k|k|k|k;kD|k|k|k|k;k|k|k|k|k;k|k|kS|k|k', 'length': 8}",llR3{f}R4{r}R3{f},5.2.1,5,2,1,loops,1052
+55,color-slalom,"{'fields': 'b|b|b|b|b;k|rD|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|yD;k|k|k|k|k;k|k|k|k|k;k|rD|k|k|k;k|k|k|k|k;k|k|k|yD|k;k|k|k|k|k;k|k|k|k|k;kS|k|k|k|k', 'length': 6}",R2{W!y{r}W!r{l}}f,5.2.2,5,2,2,loops,1052
+52,zig-zag-plus,"{'fields': 'b|b|b|b|b;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|kA|kM|kA|k;kA|k|kA|k|kA;kM|kA|k|kA|kM;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|kA|k|kA|k;kA|k|kA|k|kA;k|k|kS|k|k', 'length': 8}",R2{r}R3{l}R3{r}R4{l},5.2.3,5,2,3,loops,1052
+72,four-vs,"{'fields': 'b|b|b|b|b;k|kY|kD|k|k;k|kX|kD|kD|k;k|kW|kD|kD|kD;k|k|gD|kD|kD;k|k|kD|gD|kD;k|kY|kD|kD|gD;k|kX|kD|gD|k;k|kW|gD|k|k;k|kS|k|k|k', 'length': 5}",R4{R3{r}R3{l}},5.2.4,5,2,4,loops,1052
+63,rectangle,"{'energy': 3, 'fields': 'b|bY|bX|b|b;k|kM|kM|kM|k;k|kD|kD|kD|k;k|kD|kD|kD|k;k|kD|kD|kD|k;k|kD|kD|kD|k;k|kD|kD|kD|k;k|kS|kY|kX|k', 'length': 5}",R3{R5{f}sf},5.2.5,5,2,5,loops,1052
+47,arrow,"{'energy': 2, 'fields': 'b|b|b|b|b;kD|k|k|k|k;k|kM|k|k|k;k|k|kD|k|k;k|k|k|kD|k;kW|k|kA|kA|kM;k|k|k|kD|k;k|k|kD|k|k;k|kD|k|k|k;kD|k|k|k|k;k|k|k|k|k;kW|k|k|k|kS'}",sR3{l}slR2{f}R4{r}R4{l}f,5.3.1,5,3,1,loops,1053
+32,double-track,"{'fields': 'b|b|b|b|b|b;kW|kD|k|k|k|k;kD|kD|k|k|k|k;k|kD|kD|k|k|k;k|k|kD|kD|k|k;k|k|kD|kD|k|k;k|k|kD|kD|k|k;k|k|kD|kD|k|k;k|k|k|kD|kD|k;k|k|k|k|kD|kD;k|k|k|k|kD|kD;k|k|k|k|kD|kD;k|k|k|k|kS|kW', 'length': 8}",R2{R2{R3{f}R2{l}}f}f,5.3.2,5,3,2,loops,1053
+27,on-yellow-to-left,"{'fields': 'b|b|b|b|b;k|kA|kA|kA|kA;kA|y|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|kA|kA|kA;kA|kA|y|k|k;k|k|k|k|k;k|k|kS|k|k', 'length': 4}",W!b{fIy{l}},6.1.1,6,1,1,if,1061
+5,diamonds-with-signals,"{'fields': 'b|b|b|b|bA;k|k|k|kD|kA;k|k|y|k|kA;k|k|k|kA|kA;k|k|k|kD|kA;k|k|y|k|kA;k|k|k|k|kA;k|k|k|kA|kA;k|k|k|k|kA;k|k|k|kD|kA;k|k|y|k|kA;k|k|kS|k|kA', 'length': 5}",W!b{fIy{rl}},6.1.2,6,1,2,if,1061
+34,follow-colors,"{'fields': 'b|b|b|b|b;kA|kA|k|k|k;k|y|kA|kA|k;k|k|r|kA|kA;kA|kA|kA|r|k;k|k|y|k|k;k|k|kS|k|k', 'length': 7}",W!b{Ik{f}Iy{r}Ir{l}},6.1.3,6,1,3,if,1061
+59,two-diamonds,"{'fields': 'b|b|b|b;kA|kA|k|kA;kW|k|k|k;k|k|k|k;kD|k|kD|k;kM|y|kM|y;k|k|k|k;k|k|k|k;k|k|k|kW;k|k|k|k;k|kS|k|k', 'length': 4}",W!b{fIy{l}},6.2.1,6,2,1,if,1062
+60,red-shooting,"{'energy': 2, 'fields': 'b|b|b|b|b|b;kA|kA|kA|kA|kA|kM;k|k|kW|k|k|k;k|y|k|k|k|r;kM|kM|kA|k|y|k;k|k|kA|k|k|k;k|r|kA|y|k|k;y|k|kA|k|k|k;kS|k|k|kW|k|k', 'length': 6}",W!b{Iy{r}Ir{s}f},6.2.2,6,2,2,if,1062
+78,yellow-squares,"{'energy': 4, 'fields': 'b|b|b|b|b;k|k|yM|yM|k;k|k|yM|yD|k;k|kW|k|k|k;yM|yM|k|yM|yM;yM|yD|k|yD|yM;k|k|k|kW|k;k|yM|yM|k|k;k|yD|yM|k|k;k|k|k|k|k;k|kS|k|k|k', 'length': 4}",W!b{fIy{s}},6.2.3,6,2,3,if,1062
+81,belgian-flag,"{'fields': 'b|b|b|b|b|b;kY|kA|kW|kA|kA|k;kD|k|y|yD|rD|r;kD|k|yD|y|r|rD;kD|k|y|yD|rD|r;kD|k|yD|y|r|rD;kW|kA|k|kA|kA|kY;k|k|kS|k|k|k', 'length': 9}",W!b{Ik{f}Iy{rl}Ir{lr}},6.3.1,6,3,1,if,1063
+85,chessboard,"{'fields': 'bY|b|b|b|b;kD|k|kD|k|k;kX|kD|k|kD|k;kD|k|kD|k|kY;kW|kD|k|kD|k;kD|k|kD|k|kX;k|kD|k|kD|k;k|k|kS|k|kW', 'length': 4}",W!b{lIx=1{f}},7.1.1,7,1,1,comparing,1071
+48,edge-to-edge,"{'fields': 'b|b|b|b|b;k|kD|k|k|k;k|k|kD|k|k;k|k|k|kD|k;k|k|k|k|kD;k|k|k|kD|k;k|kW|kD|k|k;k|kD|kD|k|k;kD|k|k|kD|k;k|kD|k|k|kD;k|k|kD|kD|k;k|k|kD|kW|k;k|kS|k|k|k', 'length': 5}",W!b{Wx<5{r}Wx>1{l}},7.1.2,7,1,2,comparing,1071
+7,meteoroids-and-wormholes,"{'fields': 'b|b|b|b|b;k|k|k|kA|kM;k|k|k|k|kD;k|k|k|k|kY;k|k|kY|kA|kM;k|k|k|k|kD;k|k|k|k|kX;k|k|k|kA|kM;k|kX|k|k|kD;k|k|k|k|kW;k|k|k|kA|kM;k|k|k|k|kD;kW|k|k|k|k;k|k|kS|k|k', 'length': 5}",W!b{Wx<5{r}sf},7.1.3,7,1,3,comparing,1071
+83,maneuvers-on-left,"{'fields': 'bM|bM|b|b|b;kM|kZ|k|k|k;kM|kM|k|k|k;kM|kD|k|k|k;kX|kY|kW|kY|kZ;kM|kM|k|k|k;kD|kM|k|k|k;kW|kM|k|k|k;kM|kM|kS|kX|k', 'length': 6}",W!b{fIx<=2{fsf}},7.1.4,7,1,4,comparing,1071
+82,free-column,"{'energy': 8, 'fields': 'bA|bA|bA|b|bA;kA|kW|kA|kM|kA;kA|k|kA|kZ|kA;kA|k|kA|kA|kX;kA|k|kA|kA|kM;kZ|kX|kY|kA|k;kM|kA|kM|kA|kM;k|kA|k|kA|k;kM|kA|kM|kA|kM;kW|kA|kS|kA|kY', 'length': 4}",W!b{Ix!=2{s}f},7.2.1,7,2,1,comparing,1072
+9,diamond-lines,"{'fields': 'b|b|b|b|bD;k|k|k|kD|k;k|k|kD|k|k;k|k|kD|k|k;k|kD|k|k|k;kW|k|k|k|kW;k|k|k|kD|k;k|k|kD|k|k;k|k|kD|k|k;k|kD|k|k|k;kS|k|k|k|k', 'length': 4}",W!b{Ix=3{f}r},7.2.2,7,2,2,comparing,1072
+65,letter-h,"{'energy': 4, 'fields': 'b|b|b|b|b;kY|k|k|k|kD;kM|k|k|k|kD;kM|k|k|k|kD;kX|k|k|k|kY;kM|kM|kM|kM|kM;kW|k|k|k|kX;kM|k|k|k|kD;kM|k|k|k|kD;kS|k|k|k|kW', 'length': 5}",W!b{Ix=1{ss}f},7.2.3,7,2,3,comparing,1072
+64,wave,"{'fields': 'b|bD|b|b|b;k|yD|k|k|k;k|k|yD|k|k;k|k|k|yD|k;k|k|k|yD|k;k|k|yD|k|k;k|yD|k|k|k;k|yD|k|k|k;k|k|yD|k|k;k|k|k|yD|k;k|k|k|yD|k;k|k|yS|k|k', 'length': 7}",R2{Wx<4{r}fWx>2{l}f},7.3.1,7,3,1,comparing,1073
+28,slalom-position-testing,"{'fields': 'b|bD|b|b|b;kD|k|k|k|k;k|kD|k|k|k;kD|k|k|k|k;k|kD|k|k|k;k|k|kD|k|k;k|kD|k|k|k;k|k|kD|k|k;k|k|k|kS|k', 'length': 5}",W!b{lIx>1{l}r},7.3.2,7,3,2,comparing,1073
+80,letter-e,"{'fields': 'b|b|b|b|b;kD|k|k|k|k;kY|kD|k|k|k;kD|k|kD|k|k;kD|k|k|kY|k;kZ|kD|k|k|k;kD|k|kD|k|k;kD|k|k|kZ|k;k|kD|k|k|k;k|k|kD|k|k;k|k|k|kS|k', 'length': 4}",W!b{Ix=1{f}/{l}},8.1.1,8,1,1,if-else,1081
+24,narrow-passage,"{'fields': 'b|b|b|b|b;kA|kA|kA|kA|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;kA|kA|kA|kA|k;k|k|k|k|kW;k|k|k|k|k;k|kW|k|k|k;kA|kA|kA|kA|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;kS|k|k|k|k', 'length': 4}",W!b{Ix<5{r}/{f}},8.1.2,8,1,2,if-else,1081
+29,color-navigation,"{'fields': 'b|b|b|b|b;kD|k|k|kW|k;k|yD|k|kD|k;k|kD|k|kD|k;rD|k|k|k|yD;k|yD|k|rD|k;k|kD|k|kD|k;k|kD|rD|k|k;rD|k|kD|k|k;kD|k|kD|k|k;kW|k|kS|k|k', 'length': 6}",W!b{Ik{f}/{Iy{l}/{r}}},8.1.3,8,1,3,if-else,1081
+75,bouncing-from-edge,"{'fields': 'b|b|bD|b|b;k|k|k|kD|k;k|k|k|k|kD;k|k|k|kD|k;k|k|k|k|kD;k|k|k|kD|k;k|k|k|k|kD;k|k|k|kD|k;k|k|kD|k|k;k|kS|k|k|k', 'length': 5}",R8{Ix=5{l}/{r}}l,8.2.1,8,2,1,if-else,1082
+16,diamonds-on-yellow,"{'fields': 'b|b|b|b|b;k|yD|k|k|k;k|k|yD|k|k;k|k|k|k|k;k|k|k|k|k;k|yD|k|k|k;k|k|yD|k|k;k|k|k|yD|k;k|k|k|k|k;k|k|k|k|k;k|k|yD|k|k;k|k|k|yS|k', 'length': 4}",W!b{Iy{l}/{r}},8.2.2,8,2,2,if-else,1082
+22,triple-steps,"{'fields': 'b|b|b|b|b|b;k|k|k|kD|k|k;k|k|kD|k|k|k;k|yD|k|k|k|k;k|k|kD|k|k|kX;k|k|k|kD|kD|k;k|k|k|kD|kX|k;kW|k|yD|k|k|k;k|kD|k|kD|k|k;k|k|kD|k|kD|k;k|k|k|kS|k|kW', 'length': 6}",R5{I!y{R3{l}}/{R3{r}}},8.2.3,8,2,3,if-else,1082
+43,colorful-flowers,"{'fields': 'b|b|b|b|b|b;k|kW|k|k|k|k;k|yD|k|k|k|k;rD|k|r|k|k|k;k|gD|k|k|yD|k;k|k|k|g|k|gD;k|yD|k|k|rD|k;rD|k|y|k|k|k;k|gD|k|k|kW|k;k|kS|k|k|k|k', 'length': 6}",W!b{Ir{r}/{Ig{l}/{f}}},8.3.1,8,3,1,if-else,1083
+20,five-diamonds,"{'fields': 'b|b|b|b|b;k|kX|kD|k|k;kW|yD|yD|k|k;yD|k|kD|k|k;k|k|k|k|kX;k|k|k|k|kW;k|k|k|k|k;k|k|k|k|kS', 'length': 5}",R3{W!y{l}f}f,9.1.1,9,1,1,loops-if,1091
+61,mirror,"{'fields': 'b|b|b|b|b|b|b;k|k|kW|kA|kD|k|k;k|k|k|kA|k|k|k;k|rD|k|kA|k|rD|k;k|k|y|kA|y|k|k;k|rD|k|kA|k|rD|k;k|k|k|kA|k|k|k;rD|k|k|kA|k|k|rD;k|y|k|kA|k|y|k;rD|k|k|kA|k|k|rD;k|y|k|kA|k|y|k;k|k|y|kA|y|k|k;k|k|kS|kA|kW|k|k', 'length': 13}",W!b{Iy{Ix<4{l}/{r}}Ir{Ix<4{r}/{l}}Ik{f}},9.1.2,9,1,2,loops-if,1091
+40,plan-your-shooting,"{'energy': 5, 'fields': 'bA|bW|bA|bM|bA;kA|kD|kA|kD|kA;kA|kM|kA|kM|kA;kA|kM|kA|kM|kA;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|kS|k|kW|k', 'length': 5}",R5{R3{f}s},9.1.3,9,1,3,loops-if,1091
+45,diagonal-lines,"{'fields': 'b|b|bD|b|b;k|k|k|k|k;rD|k|k|k|k;k|y|k|k|k;k|k|y|k|k;k|k|k|y|k;k|k|k|k|rD;k|k|k|k|k;k|k|k|k|k;k|rD|k|k|k;k|k|y|k|k;k|k|k|rD|k;k|k|k|k|k;k|kS|k|k|k', 'length': 9}",W!b{Ik{rIr{l}}Iy{lIr{r}}},9.1.4,9,1,4,loops-if,1091
+15,wormhole-cloud,"{'fields': 'bA|bA|bA|b|bA;kA|kM|kA|kZ|kA;kM|kX|kM|kX|kM;kM|kZ|kX|kY|kM;kA|kM|kY|kW|kX;kM|kW|kM|kX|kM;kA|kM|kS|kM|kA', 'length': 3}",R2{lf},9.1.5,9,1,5,loops-if,1091
+30,edge-wormholes,"{'fields': 'b|b|b|b|b|b;k|kD|k|k|k|kZ;kX|k|kD|k|kD|k;kY|kD|k|kD|k|k;k|kD|kD|k|kD|kW;k|kD|kD|kD|kD|kZ;kY|k|k|kD|kD|k;k|k|kD|k|kD|kW;k|kD|k|k|k|kX;kS|k|k|k|k|k', 'length': 6}",R5{Ix=1{R5{r}}/{R5{l}}},9.1.6,9,1,6,loops-if,1091
+42,two-color-tracks,"{'fields': 'b|b|b|b|b|b;k|kW|k|k|y|k;kD|k|k|k|k|kD;k|y|k|k|r|k;k|y|k|k|y|k;k|k|kD|k|k|kD;k|r|k|k|r|k;k|y|k|k|y|k;k|k|kD|kD|k|k;k|r|k|k|y|k;k|y|k|k|y|k;kD|k|k|kD|k|k;k|y|k|k|y|k;k|y|k|k|y|k;k|kS|k|k|kW|k', 'length': 10}",R2{fR4{fIy{lr}/{rl}}}f,9.2.1,9,2,1,loops-if,1092
+33,diamond-ring,"{'fields': 'b|b|b|b|b|b;kW|k|k|k|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|kD|kD|k|k;k|kD|k|k|kD|k;kD|k|k|k|k|kD;k|kD|k|k|kD|k;k|k|kD|kD|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|k|k|k|k;k|k|kS|kW|k|k', 'length': 6}",R7{R2{l}R2{r}}f,9.2.2,9,2,2,loops-if,1092
+36,cross-2,"{'fields': 'b|b|b|b|b;kD|k|k|k|kW;k|kA|kA|kA|k;k|kD|k|kD|k;k|k|k|k|k;k|k|kD|k|k;k|k|k|k|k;k|kD|k|kD|k;k|kA|kA|kA|k;kS|k|k|k|kW', 'length': 11}",R5{Ix!=4{f}Ix!=5{r}}R5{Ix!=2{f}Ix!=1{l}}f,9.2.3,9,2,3,loops-if,1092
+54,diagonal-diamonds,"{'fields': 'b|b|b|b|b|b;k|k|k|yD|k|k;k|k|k|kW|yD|k;k|k|yD|k|k|yD;k|yD|k|k|k|k;yD|k|k|k|k|k;kS|k|k|k|k|kW', 'length': 6}",W!b{Iy{Ix<4{r}/{l}}/{f}},9.2.4,9,2,4,loops-if,1092
+35,six-diamonds,"{'fields': 'b|b|b|b;k|k|kW|k;k|kD|kD|k;k|kD|kD|k;k|kD|kD|k;kS|k|k|kW', 'length': 4}",W!b{Ix<3{r}/{l}},9.2.5,9,2,5,loops-if,1092
+4,triple-slalom,"{'fields': 'b|b|b|b|b|b;kW|k|k|k|k|k;rD|k|k|k|rD|k;k|yD|k|kX|k|yD;yD|k|k|rD|yD|k;k|yD|k|k|yD|yD;yD|k|k|yD|yD|k;k|yD|k|k|yD|yD;kS|k|k|kW|kX|k', 'length': 6}",R3{W!r{rl}f}f,9.3.1,9,3,1,loops-if,1093
+74,turning-in-square,"{'fields': 'b|b|b|b|b;kW|k|k|k|kX;k|k|k|k|k;k|gD|gD|gD|k;k|yD|yD|yD|k;k|gD|gD|gD|k;k|k|k|k|k;k|k|k|k|k;k|kW|kS|kX|k', 'length': 10}",W!b{fIy{Ix=3{ll}Ix=2{R3{r}}}},9.3.2,9,3,2,loops-if,1093
+77,letter-d,"{'fields': 'b|b|b|b|b|b;y|yY|yD|rZ|r|r;y|yD|y|r|rD|r;y|yD|y|r|rD|r;y|yD|y|r|r|rD;r|rD|r|y|y|yD;r|rD|r|y|yD|y;r|rD|r|y|yD|y;r|rD|rZ|yY|y|y;k|kS|k|k|k|k', 'length': 6}",W!b{fIx>3{Iy{r}/{l}}},9.3.3,9,3,3,loops-if,1093
+39,meteoroids-on-left,"{'energy': 2, 'fields': 'b|b|b|b|b;kW|k|k|k|k;kM|kM|kA|kA|kA;k|k|k|k|k;k|k|kD|kD|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|k|k|k;k|k|kS|kW|k', 'length': 10}",R2{R2{l}sR2{r}R2{l}f}f,9.3.4,9,3,4,loops-if,1093
+62,two-bit-instructions,"{'energy': 2, 'fields': 'b|b|b|b|b|b;kA|kW|kA|kA|kM|kA;kA|kD|kA|kA|kM|kA;k|k|yD|k|r|k;k|k|y|k|k|yD;k|k|k|k|k|y;k|rD|k|k|k|k;k|y|k|k|r|k;k|k|k|k|y|k;rD|k|k|k|k|k;y|k|k|k|r|k;kS|k|k|k|kW|k', 'length': 10}",W!b{Iy{fIy{l}/{r}}/{Ir{s}/{f}}},9.3.5,9,3,5,loops-if,1093
