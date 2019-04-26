@@ -1,2 +1,2 @@
-# adaptive-learning-research
-Data, tools, analysis, and tutorials on adaptive learning research.
+# Adaptive Learning Research
+Data, tools, analysis, and tutorials on adaptive learning.
