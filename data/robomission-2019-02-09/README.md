@@ -7,6 +7,8 @@ See [[2]](#References) for brief description of the programming game and adaptiv
 
 ## Getting the Data
 
+https://robomise.cz/media/datasets/robomission-2019-02-09.zip
+
 To download and extract the data into this directory, run:
 ```
 DATASET=robomission-2019-02-09.zip
