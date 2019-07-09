@@ -41,13 +41,13 @@ unzip -j ${DATASET}; rm ${DATASET}
 | task_session | ID of the task session |
 | student | ID of the student |
 | task | ID of the task |
-| granularity | "edit" or "execution" |
-| order | order of the snapshot of this granularity in the session |
-| time | timestamp when the snapshot was created |
-| time_from_start | seconds from the start of the task session |
-| time_delta | seconds from the previous snapshot of the same granularity |
-| program | text representation of the current code ([MiniCode](#MiniCode)) |
-| correct | whether the execution was successful (empty for edits) |
+| start | timestamp of opening the task |
+| end | timestamp of the last action in the task session |
+| solved | whether the student solved the task (boolean) |
+| time_spent | length of the task session in seconds |
+| edits | number of code edits |
+| executions | number of code executions |
+| program | text representation of the solution ([MiniCode](#MiniCode)) |
 | version | version number of RoboMission |
 
 ### Tasks (tasks.csv)
