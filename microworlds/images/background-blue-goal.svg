@@ -1,1 +1,21 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="101.33" y1="1" x2="101.33" y2="190.62" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#29abe2" stop-opacity="0.7"/><stop offset="0.13" stop-color="#26a7e0" stop-opacity="0.66"/><stop offset="0.34" stop-color="#209ed9" stop-opacity="0.56"/><stop offset="0.61" stop-color="#148ecf" stop-opacity="0.4"/><stop offset="0.92" stop-color="#0578c0" stop-opacity="0.17"/><stop offset="1" stop-color="#0071bc" stop-opacity="0.1"/></linearGradient></defs><title>předměty2</title><path class="cls-1" d="M201.86,126.81,201.81,1H1L1,126.64,65.44,158,.84,149.72l0,26.91,46.62-5.47-12.5,19.46L131.48,172l70,5.41.15-27.36-19-13.71Zm-11.66,32-47.75,4.84L102.12,152l58.72-3.92Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-name="Layer 1" version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>
+   .robomission--background-blue-goal--cls-1{fill:url(#robomission--background-blue-goal--linear-gradient);}
+  </style>
+  <linearGradient gradientUnits="userSpaceOnUse" id="robomission--background-blue-goal--linear-gradient" x1="101.33" x2="101.33" y1="1" y2="190.62">
+   <stop offset="0" stop-color="#29abe2" stop-opacity=".7"/>
+   <stop offset=".13" stop-color="#26a7e0" stop-opacity=".66"/>
+   <stop offset=".34" stop-color="#209ed9" stop-opacity=".56"/>
+   <stop offset=".61" stop-color="#148ecf" stop-opacity=".4"/>
+   <stop offset=".92" stop-color="#0578c0" stop-opacity=".17"/>
+   <stop offset="1" stop-color="#0071bc" stop-opacity=".1"/>
+  </linearGradient>
+ </defs>
+ <title>
+  background blue goal
+ </title>
+ <rect style="opacity:1;fill:#000000;fill-opacity:1;" width="200" height="200" x="0" y="0" />
+ <path class="robomission--background-blue-goal--cls-1" d="M201.86,126.81,201.81,1H1L1,126.64,65.44,158,.84,149.72l0,26.91,46.62-5.47-12.5,19.46L131.48,172l70,5.41.15-27.36-19-13.71Zm-11.66,32-47.75,4.84L102.12,152l58.72-3.92Z"/>
+</svg>

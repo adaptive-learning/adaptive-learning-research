@@ -1,1 +1,23 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cls-1{fill:#999;}.cls-2{fill:#e5e5e5;}.cls-3{fill:#2e3192;}</style></defs><title>předměty2</title><rect x="54.48" y="34.98" width="78.43" height="130.04" rx="2" ry="2" transform="translate(193.69 6.31) rotate(90)"/><rect x="139.5" y="87.68" width="40.04" height="23.61" rx="2" ry="2" transform="translate(259.01 -60.03) rotate(90)"/><rect class="cls-1" x="143.09" y="90.83" width="27.69" height="16.88" rx="1" ry="1" transform="translate(256.2 -57.66) rotate(90)"/><rect class="cls-2" x="63.26" y="43.55" width="65.19" height="112.9" rx="1" ry="1" transform="translate(195.85 4.15) rotate(90)"/><rect class="cls-1" x="89.32" y="69.59" width="13.09" height="112.92" rx="1" ry="1" transform="translate(221.92 30.19) rotate(90)"/><rect class="cls-1" x="92.36" y="66.55" width="7" height="112.92" transform="translate(218.87 27.14) rotate(90)"/><rect x="138.26" y="98.64" width="31.5" height="3.38" transform="translate(254.34 -53.69) rotate(90)"/><rect class="cls-3" x="28.2" y="91.88" width="53.23" height="16.27" transform="translate(154.83 45.19) rotate(90)"/><rect class="cls-3" x="48.4" y="91.88" width="53.23" height="16.27" transform="translate(175.03 24.99) rotate(90)"/><rect class="cls-3" x="68.6" y="91.88" width="53.23" height="16.27" transform="translate(195.22 4.8) rotate(90)"/><rect class="cls-3" x="88.89" y="91.88" width="53.23" height="16.27" transform="translate(215.52 -15.5) rotate(90)"/><rect class="cls-3" x="109.09" y="91.88" width="53.23" height="16.27" transform="translate(235.72 -35.7) rotate(90)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg data-name="Layer 1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>
+   .robomission--battery--cls-1{fill:#999;}.robomission--battery--cls-2{fill:#e5e5e5;}.robomission--battery--cls-3{fill:#2e3192;}
+  </style>
+ </defs>
+ <title>
+  battery
+ </title>
+ <rect height="130.04" rx="2" ry="2" transform="translate(193.69 6.31) rotate(90)" width="78.43" x="54.48" y="34.98"/>
+ <rect height="23.61" rx="2" ry="2" transform="translate(259.01 -60.03) rotate(90)" width="40.04" x="139.5" y="87.68"/>
+ <rect class="robomission--battery--cls-1" height="16.88" rx="1" ry="1" transform="translate(256.2 -57.66) rotate(90)" width="27.69" x="143.09" y="90.83"/>
+ <rect class="robomission--battery--cls-2" height="112.9" rx="1" ry="1" transform="translate(195.85 4.15) rotate(90)" width="65.19" x="63.26" y="43.55"/>
+ <rect class="robomission--battery--cls-1" height="112.92" rx="1" ry="1" transform="translate(221.92 30.19) rotate(90)" width="13.09" x="89.32" y="69.59"/>
+ <rect class="robomission--battery--cls-1" height="112.92" transform="translate(218.87 27.14) rotate(90)" width="7" x="92.36" y="66.55"/>
+ <rect height="3.38" transform="translate(254.34 -53.69) rotate(90)" width="31.5" x="138.26" y="98.64"/>
+ <rect class="robomission--battery--cls-3" height="16.27" transform="translate(154.83 45.19) rotate(90)" width="53.23" x="28.2" y="91.88"/>
+ <rect class="robomission--battery--cls-3" height="16.27" transform="translate(175.03 24.99) rotate(90)" width="53.23" x="48.4" y="91.88"/>
+ <rect class="robomission--battery--cls-3" height="16.27" transform="translate(195.22 4.8) rotate(90)" width="53.23" x="68.6" y="91.88"/>
+ <rect class="robomission--battery--cls-3" height="16.27" transform="translate(215.52 -15.5) rotate(90)" width="53.23" x="88.89" y="91.88"/>
+ <rect class="robomission--battery--cls-3" height="16.27" transform="translate(235.72 -35.7) rotate(90)" width="53.23" x="109.09" y="91.88"/>
+</svg>
