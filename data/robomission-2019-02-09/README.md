@@ -2,8 +2,7 @@
 
 RoboMission is a free system for teaching introductory programming available at https://en.robomise.cz.
 Its code is [open source](https://github.com/adaptive-learning/robomission).
-See [[2]](#References) for brief description of the programming game and adaptivity of the system
-(or [[1]](#References) for more details).
+See [[1]](#References) for a short paper describing this dataset, [[2]](#References) for a brief description of the programming game and adaptivity of the system, or [[3]](#References) for a master thesis about RoboMission with more details.
 
 ## Getting the Data
 
@@ -182,13 +181,34 @@ Examples of RoboCodes and corresponding MiniCodes:
           right()
   ```
   MiniCode: `R6{Ix>1{s}/{r}}`
-  
+
+## Citing this Dataset
+
+If you use this dataset, please cite:
+
+```
+Effenberger, T.. Blockly Programming Dataset.
+In: 3rd Educational Data Mining in Computer Science Education (CSEDM) Workshop. 2019.
+```
+
+BibTeX format:
+```
+@inproceedings{effenberger2019blockly,
+   author = {Effenberger, Tom{\'a}{\v{s}}},
+   booktitle = {3rd Educational Data Mining in Computer Science Education (CSEDM) Workshop},
+   title = {Blockly Programming Dataset},
+   year = {2019}
+}
+```
   
 ## References
-[1] Effenberger, T.: Adaptive System for Learning Programming.
-    Master’s thesis, Masaryk University (2018)
-    [[pdf]](https://is.muni.cz/th/p2dob/thesis.pdf)
+[1] Effenberger, T.. Blockly Programming Dataset. In: 3rd Educational Data Mining in Computer Science Education (CSEDM) Workshop. 2019. [[pdf]](https://drive.google.com/file/d/1oivtasEHGpgRQ9n1WKOtcHkebnvx7xDC/view)
     
 [2] Effenberger, T., Pelánek, R.: Towards making block-based programming activities adaptive.
     In: Proc. of Learning at Scale. p. 13. ACM (2018)
     [[pdf]](https://www.fi.muni.cz/~xpelanek/publications/robomise-wip-las.pdf)
+
+[3] Effenberger, T.: Adaptive System for Learning Programming.
+    Master’s thesis, Masaryk University (2018)
+    [[pdf]](https://is.muni.cz/th/p2dob/thesis.pdf)
+
