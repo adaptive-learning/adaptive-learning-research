@@ -93,7 +93,7 @@ this is currently used exclusively for toolboxes (sets of available code blocks)
   "energy": limit on the number of shots (optional)
  }
  ```
- 
+
  Example for [task Ladder](https://en.robomise.cz/task/ladder):
 ```
 {
@@ -102,7 +102,7 @@ this is currently used exclusively for toolboxes (sets of available code blocks)
   "energy": 4
  }
  ```
- 
+
 | Toolbox | Blocks |
 | ------- | ------ |
 | shoot | fly, shoot |
@@ -114,10 +114,10 @@ this is currently used exclusively for toolboxes (sets of available code blocks)
 | loops-if-else | fly, shoot, repeat, while, color, position, if, if-else |
 
 
- 
 
 
- 
+
+
 ## GridWorld
 
 Each field in the grid world has a color and a series of objects (can be empty).
@@ -148,7 +148,7 @@ Or in the expanded form:
 In RoboMission, students build programs using RoboBlockly in a block-based programming environment.
 The blocks have their corresponding text version called RoboCode, which is similar to Python.
 MiniCode is a condensed form of RoboCode used for logging.
-See [[1]](#References) (chapter 6.3) for details about RoboCode.
+See [[3]](#References) (chapter 6.3) for details about RoboCode.
 
 Minicode replaces indentation by curly brackets, keywords and functions by their first letters,
 and removes whitespace characters in order to fit programs into a single short line.
@@ -201,10 +201,10 @@ BibTeX format:
    year = {2019}
 }
 ```
-  
+
 ## References
 [1] Effenberger, T.. Blockly Programming Dataset. In: 3rd Educational Data Mining in Computer Science Education (CSEDM) Workshop. 2019. [[pdf]](https://drive.google.com/file/d/1oivtasEHGpgRQ9n1WKOtcHkebnvx7xDC/view)
-    
+
 [2] Effenberger, T., Pelánek, R.: Towards making block-based programming activities adaptive.
     In: Proc. of Learning at Scale. p. 13. ACM (2018)
     [[pdf]](https://www.fi.muni.cz/~xpelanek/publications/robomise-wip-las.pdf)
