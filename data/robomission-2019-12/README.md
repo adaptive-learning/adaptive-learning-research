@@ -20,10 +20,10 @@ unzip -j ${DATASET}; rm ${DATASET}
 
 ## Data Description
 
-There are thre CSV tables:
+There are three CSV tables:
 * `events.csv`: individual edits and executions (2.6 million instances),
-* `attempts.csv`: student-problem interaction consistining of multiple edits and executions (160 thousand instances),
-* `problems.csv`: statements, solutions and context of available programming tasks (85 instances).
+* `attempts.csv`: student-problem interactions consistining of multiple edits and executions (160 thousand instances),
+* `problems.csv`: statements, solutions and contexts of available programming problems (85 instances).
 
 ### Events `(events.csv)`
 
@@ -63,7 +63,7 @@ There are thre CSV tables:
 | name | text label of the problem |
 | statement | description of the game world, limits and toolbox (JSON) |
 | solution | text representation of the solution ([MiniCode](#MiniCode)) |
-| context | location of the problem (mission, problemset) (JSON) |
+| context | ordering and names of the mission and problem set (JSON) |
 | problemset | ID of the problem set containing the problem (1–27)|
 | level1 | level of the problem set (1–9) |
 | level2 | sublevel of the problem set (1–3)  |
