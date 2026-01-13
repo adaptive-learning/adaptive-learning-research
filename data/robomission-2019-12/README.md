@@ -9,14 +9,7 @@ RoboMission with more details.
 
 ## Getting the Data
 
-https://robomise.cz/media/datasets/robomission-2019-12-10.zip
-
-To download and extract the data into this directory, run:
-```
-DATASET=robomission-2019-12-10.zip
-wget "https://robomise.cz/media/datasets/${DATASET}"
-unzip -j ${DATASET}; rm ${DATASET}
-```
+https://drive.google.com/drive/u/0/folders/1WLtWBSfNnLfy-gTF0fPvDKZ-Mge19Qg2
 
 ## Data Description
 
