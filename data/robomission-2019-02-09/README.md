@@ -6,14 +6,8 @@ See [[1]](#References) for a short paper describing this dataset, [[2]](#Referen
 
 ## Getting the Data
 
-https://robomise.cz/media/datasets/robomission-2019-02-09.zip
+https://drive.google.com/drive/u/0/folders/1WLtWBSfNnLfy-gTF0fPvDKZ-Mge19Qg2
 
-To download and extract the data into this directory, run:
-```
-DATASET=robomission-2019-02-09.zip
-wget "https://robomise.cz/media/datasets/${DATASET}"
-unzip -j ${DATASET}; rm ${DATASET}
-```
 ## CSV Tables
 
 ### Program Snapshosts (snapshots.csv)
